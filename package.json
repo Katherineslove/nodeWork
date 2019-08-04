@@ -1,0 +1,19 @@
+{
+  "name": "nodework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katherineslove/nodeWork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katherineslove/nodeWork/issues"
+  },
+  "homepage": "https://github.com/Katherineslove/nodeWork#readme"
+}
