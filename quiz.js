@@ -9,28 +9,15 @@ const correctAnswers = [
   '4',
   '8'
 ];
-//
-// let usersAnswers = [];
 
-const ask = (i = 0) => {
-  process.stdout.write(`\n ${questions[i]}`);
+let usersAnswers = [];
+
+function askQuestion(num) {
+  process.stdout.write(`${questions[num]}`);
 }
 
-ask();
-
-const answers = [];
 process.stdin.on('data', function(answer){
-  console.log(data.toString().trim());
-  amswers.push(data.toString().trim());
-    process.exit();
-  if (answers.length < questions.length) {
-    ask(questions.length);
-  } else {
-    process.exit();
-  }
+  let inputAnswer = answer.toString().trim();
 });
 
-process.on('exit', () => {
-  const [number, octagon] = answers;
-
-})
+askQuestion(0);
